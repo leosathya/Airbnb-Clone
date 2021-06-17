@@ -1,0 +1,48 @@
+.datepiker {
+  position: absolute;
+  top: 35px;
+  left: 25%;
+}
+
+.datepiker > h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 559px;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: 300px;
+}
+
+.datepiker > input {
+  width: 539px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  left: 0;
+  height: 30px;
+  top: 344px;
+  border: none;
+}
+
+.datepiker > input:focus {
+  outline-width: 0;
+}
+
+.datepiker > button {
+  position: absolute;
+  left: 0;
+  top: 384px;
+  text-transform: inherit !important;
+  background-color: #ff7779;
+  color: white;
+  width: 579px;
+}
+
+.datepiker > button:hover {
+  background-color: white;
+  color: #ff7779;
+}

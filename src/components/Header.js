@@ -8,7 +8,7 @@ import { Avatar } from '@material-ui/core'
 function Header() {
     return (
         <div className="header">
-            <img className="header__icon" src="/images/log.png" />
+            <img className="header__icon" src="/images/log.png" alt="" />
 
             <div className="header__center">
                 <input type="text" />
